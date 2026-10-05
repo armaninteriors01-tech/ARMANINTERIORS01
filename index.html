@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arman Interiors | Custom Woodwork & Interior Design</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #c59b27;
+      --dark: #121212;
+      --card-bg: #1c1c1e;
+      --text: #e0e0e0;
+      --text-muted: #a0a0a0;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: var(--dark);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      padding: 40px 20px 20px;
+      text-align: center;
+      background: linear-gradient(180deg, #201a0e 0%, var(--dark) 100%);
+    }
+    header h1 {
+      font-size: 2rem;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 8px;
+    }
+    header p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+    .cta-btn {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 12px 28px;
+      background-color: var(--primary);
+      color: #000;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 30px;
+      box-shadow: 0 4px 15px rgba(197, 155, 39, 0.3);
+    }
+    .container {
+      padding: 24px 18px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h2 {
+      font-size: 1.4rem;
+      color: #fff;
+      margin-bottom: 16px;
+      border-left: 4px solid var(--primary);
+      padding-left: 10px;
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 14px;
+      margin-bottom: 36px;
+    }
+    .service-card {
+      background-color: var(--card-bg);
+      padding: 18px;
+      border-radius: 10px;
+      border: 1px solid #2d2d30;
+    }
+    .service-card h3 {
+      font-size: 1.05rem;
+      color: var(--primary);
+      margin-bottom: 6px;
+    }
+    .service-card p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 14px;
+      margin-bottom: 36px;
+    }
+    .gallery-card {
+      background-color: var(--card-bg);
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid #2d2d30;
+    }
+    .gallery-card img {
+      width: 100%;
+      height: 190px;
+      object-fit: cover;
+      display: block;
+    }
+    .gallery-card .desc {
+      padding: 12px;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+    .contact-box {
+      background-color: var(--card-bg);
+      padding: 24px;
+      border-radius: 12px;
+      text-align: center;
+      border: 1px solid #2d2d30;
+      margin-bottom: 40px;
+    }
+    .contact-box p {
+      margin-bottom: 12px;
+    }
+    .btn-whatsapp {
+      display: inline-block;
+      background-color: #25D366;
+      color: #fff;
+      font-weight: 600;
+      padding: 12px 24px;
+      border-radius: 25px;
+      text-decoration: none;
+      margin: 6px;
+    }
+    .btn-call {
+      display: inline-block;
+      background-color: #333;
+      color: #fff;
+      font-weight: 600;
+      padding: 12px 24px;
+      border-radius: 25px;
+      text-decoration: none;
+      margin: 6px;
+      border: 1px solid #444;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      border-top: 1px solid #222;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Arman Interiors</h1>
+    <p>Custom Carpentry & Modular Home Interior Solutions</p>
+    <a href="https://wa.me/917204633876?text=Hi%2C%20I%20would%20like%20to%20get%20a%20quote%20for%20interior%20work." class="cta-btn">Book Free Site Visit</a>
+  </header>
+
+  <div class="container">
+    <h2>Our Specializations</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Modular Kitchens</h3>
+        <p>Custom storage, soft-close hardware, pull-out baskets, and water-resistant materials.</p>
+      </div>
+      <div class="service-card">
+        <h3>Designer Wardrobes</h3>
+        <p>Sliding and hinged modular wardrobes built to optimize full ceiling height.</p>
+      </div>
+      <div class="service-card">
+        <h3>Modern TV Units</h3>
+        <p>Floating consoles, marble-finish back panels, and fluted wooden louvers.</p>
+      </div>
+      <div class="service-card">
+        <h3>Custom Carpentry</h3>
+        <p>Shoe racks, vanity storage, pooja units, and on-site woodwork enhancements.</p>
+      </div>
+    </div>
+
+    <h2>Recent Work</h2>
+    <div class="gallery-grid">
+      <div class="gallery-card">
+        <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=600" alt="Modular Kitchen">
+        <div class="desc">Modular Kitchen Setup</div>
+      </div>
+      <div class="gallery-card">
+        <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600" alt="Living Room TV Unit">
+        <div class="desc">Fluted Panel Living TV Unit</div>
+      </div>
+      <div class="gallery-card">
+        <img src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=600" alt="Bedroom Wardrobe">
+        <div class="desc">Custom Bedroom Wardrobe</div>
+      </div>
+    </div>
+
+    <div class="contact-box">
+      <h2>Get a Free Estimate</h2>
+      <p>We provide home site visits across all service areas in Karnataka.</p>
+      <a href="https://wa.me/917204633876?text=Hello%20Arman%20Interiors%2C%20I%20need%20a%20quotation." class="btn-whatsapp">Chat on WhatsApp</a>
+      <a href="tel:07204633876" class="btn-call">Call Directly</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2026 Arman Interiors. All rights reserved.
+  </footer>
+
+</body>
+</html>
